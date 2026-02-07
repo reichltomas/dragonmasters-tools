@@ -1,0 +1,28 @@
+[project]
+name = "Dragonmaster's Encounters"
+version = "0.0.1"
+description = ""
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Tomáš Reichl", email = "krtkus001@gmail.com" }
+]
+dependencies = [
+    "flet>=0.80.5"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli>=0.80.5",
+    "flet-desktop>=0.80.5",
+    "flet-web>=0.80.5",
+]
+
+[tool.flet]
+org = "cz.reichltomas"
+product = "dmencounters"
+company = "Tomáš Reichl"
+copyright = "Copyright (C) 2026 by Tomáš Reichl and contributors"
+
+[tool.flet.app]
+path = "src"
